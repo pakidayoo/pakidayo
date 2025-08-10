@@ -49,9 +49,9 @@ html, body {
 
 .judull {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    
     transform: translate(-40%, -40%);
-    font-size: 400%;
 }
 
 
@@ -90,13 +90,6 @@ html, body {
 }
 
 
-.violett {
-    width:700px;
-    height:700px;
-    display: flex;
-    transform: translate(1000px, -400px);
-
-}
 
 
 
@@ -128,7 +121,9 @@ html, body {
     height: 40%;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 50px;
-    transform: translate(110%, 45%);
+    margin-left: 33%;
+    margin-top: 9%;
+
 }
 
 
@@ -138,7 +133,8 @@ html, body {
     height: 35%;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 50px;
-    transform: translate(110%, 170%);
+    margin-left: 33%;
+    margin-top: 30%;
 
 }
 
@@ -164,10 +160,13 @@ html, body {
 
 
 .videoo {
+    margin-left: 66%;
+    display: flex;
+    float: left;
     position: absolute;
     width: 30%;
     height: 70%;
-    transform: translate(220%, 27%);
+    transform: translate(0%, 27%);
 }
 
 
@@ -175,42 +174,9 @@ html, body {
     color: white;
     transform: translate(2%, -10%);
 }
-/* 
-.text {
-    color: white;
-    transform: translate(70px,-1000px);
-}
-
-.text2 {
-     color: white;
-    transform: translate(70px,-990px);
-
-}
-
-.text3 {
-    color: white;
-    transform: translate(70px,-985px);
-
-}
-
-.text4 {
-    color: white;
-    transform: translate(70px,-980px);
 
 
-}
 
- */
-
-body {
-    background-color:white;
-    width: 100%;
-    height: 100vh;.text6 {
-    color: white;
-    transform: translate(70px, -500px);
-}
-
-}
 
 .navbar {
     width:200%;
@@ -221,7 +187,8 @@ body {
     height: 100%;
     display: flex;
     border: 1px solid white;
-    transform: translate(7%, 340%);
+    margin-left: 15%;
+    margin-top: 70%;
     justify-self: start;
     justify-content: center;
     align-self: ;
