@@ -1,0 +1,276 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+    
+
+.background {
+        background-image: url("night-ocean-landscape-full-moon-stars-shine_107791-7397.avif");
+        background-size: cover; 
+        justify-content: center;     
+        background-repeat: repeat;
+        background-position:center;
+        width:100%;
+        height: 100vh;
+        
+    }
+
+.background1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.video1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+
+
+
+.judull {
+    display: flex;
+    justify-content: center;
+    transform: translate(-40%, -40%);
+    font-size: 400%;
+}
+
+
+.judul1 {
+    display: flex;
+    justify: center;
+    align-items: center;
+    margin-bottom: 300px;
+    color:white;
+    transform:translate(100px, 500px);
+    visibility: hidden;
+}
+
+.judul2 {
+    display: flex;
+    justify: center;
+    align-items: center;
+    margin-bottom: 300px;
+    color: white;
+    transform: translate(100px, 200px);visibility: hidden;
+}
+
+
+.content {
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    border-radius: 10px;
+    backdrop-filter: blur(40px);
+    transform: translate(0px, -10%)
+    
+}
+
+
+.violett {
+    width:700px;
+    height:700px;
+    display: flex;
+    transform: translate(1000px, -400px);
+
+}
+
+
+
+
+/* 
+.violet {
+    width: 300px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    transform: translate(50px, 0px);
+}
+
+
+.violet2 {
+    width: 300px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    transform: translate(50px, 0px);
+} */
+
+
+
+
+.violet3 {
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    transform: translate(110%, 45%);
+}
+
+
+.violet4 {
+    position: absolute;
+    width: 30%;
+    height: 35%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    transform: translate(110%, 170%);
+
+}
+
+
+.blurr {
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    color:white;
+    justify-content: center;
+    border-radius: 20px;
+    width:30%;
+    height:70%;
+    transform: translate(4%, 30%);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    backdrop-filter: blur(90px);
+}
+
+.l {
+    visibility: hidden;
+}
+
+
+
+
+.videoo {
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    transform: translate(220%, 27%);
+}
+
+
+.teev {
+    color: white;
+    transform: translate(2%, -10%);
+}
+/* 
+.text {
+    color: white;
+    transform: translate(70px,-1000px);
+}
+
+.text2 {
+     color: white;
+    transform: translate(70px,-990px);
+
+}
+
+.text3 {
+    color: white;
+    transform: translate(70px,-985px);
+
+}
+
+.text4 {
+    color: white;
+    transform: translate(70px,-980px);
+
+
+}
+
+ */
+
+body {
+    background-color:white;
+    width: 100%;
+    height: 100vh;.text6 {
+    color: white;
+    transform: translate(70px, -500px);
+}
+
+}
+
+.navbar {
+    width:200%;
+    background-color: rgba(64, 64, 97, 0.402);
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px white;
+    backdrop-filter: blur(40%);
+    height: 100%;
+    display: flex;
+    border: 1px solid white;
+    transform: translate(7%, 340%);
+    justify-self: start;
+    justify-content: center;
+    align-self: ;
+   
+  
+}
+.li-navbar {
+    border: 1px solid rgb(255, 255, 255);
+    background-color:rgba(255, 252, 252, 0);
+    backdrop-filter: blur(100px);
+    font-size: 19px;
+    padding:10px;
+    margin:18px;
+    display: flex;
+    border-radius:20px;
+    list-style-type: none;
+    color:white;
+    transition: background-color 0,3 ease;
+    box-shadow: 2px 2px 10px white;
+    
+}
+
+
+.a-navbar {
+    color:white;
+    text-decoration: none;
+}
+
+.violett {
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.blur {
+    background-color: white;
+    width: 95%;
+    height: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(30px);
+}
